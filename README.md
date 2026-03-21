@@ -6,7 +6,7 @@ Shareable **session knowledge** for Cursor and AI-assisted work: use cases, stac
 |------|---------|
 | [`CURSOR_KNOWLEDGE.md`](./CURSOR_KNOWLEDGE.md) | Main log — append new sessions at the bottom |
 | [`PROJECT_CONTEXT.md`](./PROJECT_CONTEXT.md) | **Sanitized template** for goals and foundation shape (no private projects list) |
-| [`onboarding/`](./onboarding/) | Cursor / agent **onboarding** — triggers cheatsheet, git basics, public vs private Git, session playbook |
+| [`onboarding/`](./onboarding/) | Cursor / agent **onboarding** — non-technical “building with AI” path, triggers cheatsheet, git basics, public vs private Git, session playbook |
 | [`product-management/`](./product-management/) | **PM knowledge** slice — `PM_KNOWLEDGE.md`, **`GLOSSARY.md`** (non-developer terms), research index |
 | [`cursor-knowledge/`](./cursor-knowledge/) | Companion articles linked from onboarding (context URLs, mobile web UX, backlog philosophy, GitHub onboarding) |
 

@@ -1,6 +1,9 @@
 # Cursor & agentic workflow — session playbook (v1)
 
-**For:** PMs and newcomers using Cursor with an AI collaborator.  
+**For:** People using Cursor with an AI collaborator inside a **project folder** — including PMs and newcomers who are ready for terminal, Git, or static-site steps.
+
+**New to agentic AI or non-technical?** Read **[Building with agentic AI (non-technical)](building-with-agentic-ai-non-technical.md)** and **[Working with AI context](working-with-ai-context.md)** first; this playbook goes deeper on **implementation** habits.
+
 **Source:** Distilled from workspace sessions (sanitized — **no** tokens or secrets).
 
 ---

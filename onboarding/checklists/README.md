@@ -1,10 +1,10 @@
 # Checklists
 
-Add short, printable onboarding checklists here (e.g. first week in Cursor, pre-share website QA).
+Short, printable onboarding lists.
 
-**Ideas (backlog):**
+| Checklist | Description |
+|-----------|-------------|
+| [First week (non-technical)](first-week-cursor-non-technical.md) | Cursor install, first prompts, Plan vs Agent, context — **no** terminal required for the first half |
+| *Ideas* | Pre-flight before sharing a static site URL; power-user first week with Git — add files here as you create them |
 
-- [ ] First 7 days in Cursor (open repo, Plan vs Agent, first commit)
-- [ ] Pre-flight before sharing a static site URL
-
-Update [`../INDEX.md`](../INDEX.md) when you add files.
+Update [`../INDEX.md`](../INDEX.md) when you add checklists.

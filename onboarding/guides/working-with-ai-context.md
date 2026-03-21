@@ -1,6 +1,6 @@
 # Working with AI context (humans + Cursor)
 
-**Goal:** Decide when to **stay in a long chat**, when to **start fresh**, and how to **keep truth in the repo** so the agent doesn’t rely on fragile “conversation memory.”
+**Goal:** Decide when to **stay in a long chat**, when to **start fresh**, and how to **keep truth in files** (your project folder) so the agent doesn’t rely only on fragile “conversation memory.” You can use these ideas even when your “repo” is just a few notes — open **any** folder in Cursor as a project.
 
 **Reading list (26 links):** [`cursor-knowledge/AGENTIC_CONTEXT_URLS.md`](../../cursor-knowledge/AGENTIC_CONTEXT_URLS.md)
 
@@ -54,7 +54,9 @@ Next step: [bullet]
 
 ## 4. Put durable context in the workspace (best ROI)
 
-What you already have in *this* repo is the right pattern:
+**Principle:** Chat = **scratchpad + execution**; your project folder = **ledger**.
+
+Many **full** workspaces use a pattern like this:
 
 | Mechanism | Holds |
 |-----------|--------|
@@ -64,7 +66,7 @@ What you already have in *this* repo is the right pattern:
 | **`BACKLOG.md` + `BACKLOG_STORY_DETAILS.md`** | Prioritized work with **descriptions** |
 | **`CURSOR_KNOWLEDGE.md` / `cursor-knowledge/`** | Reusable facts and reading lists |
 
-**Principle:** Chat = **scratchpad + execution**; repo = **ledger**.
+If you only have this **public** knowledge pack, you still have **`cursor-knowledge/`**, **`product-management/`**, and onboarding guides — use **one** note file (e.g. `MY_CONTEXT.md`) as a mini–`activeContext` until you adopt a bigger template. See [onboarding `README`](../README.md) vs [full workspace catalog](../INDEX-full-workspace-only.md).
 
 ---
 
