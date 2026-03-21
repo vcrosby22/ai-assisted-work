@@ -6,6 +6,11 @@ Shareable **session knowledge** for Cursor and AI-assisted work: use cases, stac
 |------|---------|
 | [`CURSOR_KNOWLEDGE.md`](./CURSOR_KNOWLEDGE.md) | Main log — append new sessions at the bottom |
 | [`PROJECT_CONTEXT.md`](./PROJECT_CONTEXT.md) | **Sanitized template** for goals and foundation shape (no private projects list) |
+| [`onboarding/`](./onboarding/) | Cursor / agent **onboarding** — triggers cheatsheet, git basics, public vs private Git, session playbook |
+| [`product-management/`](./product-management/) | **PM knowledge** slice — `PM_KNOWLEDGE.md`, **`GLOSSARY.md`** (non-developer terms), research index |
+| [`cursor-knowledge/`](./cursor-knowledge/) | Companion articles linked from onboarding (context URLs, mobile web UX, backlog philosophy, GitHub onboarding) |
+
+**Private workspace:** [where_cursor_feels_home](https://github.com/vcrosby22/where_cursor_feels_home) vendors this repo as a **git submodule** at `cursor-knowledge-public/` with symlinks `onboarding` and `product-management` at the monorepo root. Links that point “up” to `BACKLOG.md`, `scripts/`, or `.cursor/` resolve inside that private clone.
 
 ## Maintainer
 
