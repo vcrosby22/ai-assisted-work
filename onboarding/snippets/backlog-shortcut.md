@@ -4,10 +4,10 @@
 
 ## Fastest: snippet trigger (no keybinding needed)
 
-1. Open [`BACKLOG.md`](../../../BACKLOG.md) at the **Active items** table (last data row).
+1. Open [`BACKLOG.md`](../../BACKLOG.md) at the **Active items** table (last data row).
 2. Start a **new line** inside the table.
 3. Type **`a2b`** and press **Tab** (or choose “BACKLOG.md row (A-2-B)” from the snippet picker).
-4. Fill placeholders: **BL id**, **Priority**, **Epic**, **Title**, **Notes** (Status defaults to `open`).
+4. Fill placeholders: **BL id**, **Priority**, **Purpose** (`PU-01`–`PU-05` — must match Epic in [`backlog/EPIC_REGISTRY.md`](../../backlog/EPIC_REGISTRY.md)), **Epic**, **Title**, **Notes** (Status defaults to `open`).
 
 Defined in **`.vscode/backlog.code-snippets`** (workspace). Prefixes: `a2b`, `A2B`, `blrow`.
 

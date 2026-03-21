@@ -16,9 +16,10 @@ Synthesized reference for **software, hardware, UI/UX, data-intensive, and AI/ML
 | Metrics, prioritization scores, roadmaps | §4 Data, prioritization, roadmaps |
 | ML viability, responsible AI, LLM security, regulation | §5 AI / ML |
 | Product idea framing, defensibility, what to optimize for first | §6 Ideation & strategy vocabulary |
+| **Backlog hygiene** — ordering, refinement, DEEP/INVEST, discovery vs delivery | §7 Backlog management |
 | Plain definitions, acronyms, non-developer onboarding vocabulary; **Category** for user-outcome filtering | [`GLOSSARY.md`](GLOSSARY.md) |
 
-**Changelog:** 2026-03-20 — GLOSSARY: **Parent outcome** categories + **BL-29**. Link to `GLOSSARY.md` for terms sheet. §6 workspace capture (ideation example, defensibility, choice lenses). 2026-03-19 — Initial synthesis from 27 web sources (`SOURCE_INDEX.md`).
+**Changelog:** 2026-03-20 — **§7 Backlog management** (workspace Purpose → Epic → Story, DEEP/refinement pointers). 2026-03-20 — GLOSSARY: **Parent outcome** categories + **BL-29**. Link to `GLOSSARY.md` for terms sheet. §6 workspace capture (ideation example, defensibility, choice lenses). 2026-03-19 — Initial synthesis from 27 web sources (`SOURCE_INDEX.md`).
 
 ---
 
@@ -217,7 +218,35 @@ Useful forcing questions (not mutually exclusive):
 
 ---
 
-## 7. Cross-domain cheat sheet
+## 7. Backlog management (hygiene, shape, and this workspace)
+
+**Why this section:** Product backlogs fail when they are unordered junk drawers. Industry practice emphasizes **ordering**, **refinement**, and **right-sized** items near the top — without pretending the far future is fully specified.
+
+### 7.1 Themes from standard practice
+
+- **Ordered backlog** — The product backlog is a single ordered list (Scrum Guide). “Priority” is expressed by **position** and explicit rank fields (e.g. P0–P3) where useful.
+- **DEEP** — Often summarized as *detailed appropriately, emergent, estimated, prioritised* (Roman Pichler and others). Near-term items gain detail through **refinement**; distant items stay coarse until they surface.
+- **Refinement loop** — Regularly clarify scope, split large items, and prepare upcoming work so planning is cheap. Collaboration between product and delivery reduces late surprises.
+- **Stories and INVEST** — Small, valuable backlog items benefit from **INVEST**-style quality (independent, negotiable, valuable, estimable, small, testable) and **splitting** when one card hides multiple goals or too much risk.
+- **Discovery vs delivery** — Some teams separate **opportunity / discovery** work from **committed build** items so they validate problems before over-investing (see SVPG “opportunity backlog” framing in the reading list below).
+
+### 7.2 How `where_cursor_feels_home` implements this
+
+This workspace uses **markdown as source of truth** with a strict hierarchy:
+
+1. **Purpose** (`PU-NN`) — *Why* a strand of work exists (strategic outcome / north-star bucket).
+2. **Epic** (`EP-NN`) — Theme under one Purpose; every story rolls up through exactly one Epic.
+3. **Story** — **`BL-##`** row in [`BACKLOG.md`](../../BACKLOG.md) (**Title** = required) plus optional narrative in [`BACKLOG_STORY_DETAILS.md`](../../BACKLOG_STORY_DETAILS.md); optional rich file in [`backlog/tickets/`](../../backlog/tickets/) (`TKT-NNNNN`).
+
+**Required on a story:** **title** + **epic** (which implies **purpose** via [`backlog/EPIC_REGISTRY.md`](../../backlog/EPIC_REGISTRY.md)). **Description** is encouraged for refinement but **not required** in the ticketing template.
+
+**Curated reading list (13+ URLs):** [`BACKLOG_PRODUCT_PRACTICES_URLS.md`](../../cursor-knowledge/BACKLOG_PRODUCT_PRACTICES_URLS.md) — Scrum Guide, refinement, Pichler, SVPG, INVEST, story splitting.
+
+**Workspace specs:** [`BACKLOG_HIERARCHY.md`](../../BACKLOG_HIERARCHY.md) · [`backlog/TICKETING_MODEL.md`](../../backlog/TICKETING_MODEL.md) · [`backlog/PURPOSE_REGISTRY.md`](../../backlog/PURPOSE_REGISTRY.md).
+
+---
+
+## 8. Cross-domain cheat sheet
 
 | Problem | Consider |
 |--------|----------|
@@ -229,7 +258,7 @@ Useful forcing questions (not mutually exclusive):
 
 ---
 
-## 8. Gaps for future hydration
+## 9. Gaps for future hydration
 
 - **Amazon Working Backwards / PR-FAQ** (primary AWS sources)
 - **Data mesh / data product** paradigms (internal data platforms)
