@@ -35,6 +35,10 @@
 | [`links/`](links/) | External references (Cursor docs, security, verification) |
 | [`INDEX.md`](INDEX.md) | What exists and suggested reading order |
 
+## Quality standard for public files
+
+All files in this repo are held to **[`product-management/PUBLIC_DOC_QUALITY_CRITERIA.md`](../product-management/PUBLIC_DOC_QUALITY_CRITERIA.md)** — nine criteria that treat each document as a product with a user, a purpose, and a UI (the GitHub renderer). Use it when creating or reviewing content.
+
 ## Before you share your own material
 
 1. Remove or redact secrets, tokens, internal paths, or anything you would not put on a public web page.  
