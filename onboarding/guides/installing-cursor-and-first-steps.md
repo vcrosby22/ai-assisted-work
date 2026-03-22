@@ -1,5 +1,21 @@
 # Installing Cursor and first steps
 
+## At a glance
+
+=== "Beginner"
+
+    This guide walks you through downloading Cursor, opening a folder, and having your first AI conversation. It takes about **10 minutes** and assumes you've never used a code editor before.
+
+=== "Intermediate"
+
+    Install Cursor (VS Code-based editor with built-in AI chat), open a project folder so the assistant can read/edit files, and understand the two modes: **Plan** (think together, review changes) vs. **Agent** (assistant edits files and runs commands directly).
+
+=== "Advanced"
+
+    Cursor is an Electron-based fork of VS Code with integrated LLM chat (Claude, GPT-4, etc.), agentic file editing, and context-aware indexing. Key setup: open a workspace folder (enables `.cursorignore`, rules, and codebase indexing), configure model preferences, and understand Plan vs. Agent mode for different iteration speeds.
+
+---
+
 This guide walks you from zero to your first AI-assisted conversation. It takes about 10 minutes.
 
 ---

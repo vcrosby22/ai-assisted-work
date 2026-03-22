@@ -1,0 +1,93 @@
+site_name: Cursor Knowledge Base
+site_description: Guides, technical knowledge, and resources for learning Cursor and AI-assisted work — from beginner to advanced.
+site_url: https://vcrosby22.github.io/cursor-knowledge/
+repo_url: https://github.com/vcrosby22/cursor-knowledge
+repo_name: vcrosby22/cursor-knowledge
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+
+plugins:
+  - search
+
+exclude_docs: |
+  LICENSE
+  .github/
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Install Cursor & first steps: onboarding/guides/installing-cursor-and-first-steps.md
+      - Building with agentic AI: onboarding/guides/building-with-agentic-ai-non-technical.md
+      - First-week checklist: onboarding/checklists/first-week-cursor-non-technical.md
+      - Working with AI context: onboarding/guides/working-with-ai-context.md
+      - Cursor session playbook: onboarding/guides/cursor-session-playbook.md
+  - AI Engineering:
+      - Overview: ai-engineering/README.md
+      - Context engineering: ai-engineering/context-engineering.md
+      - LLM foundations: ai-engineering/llm-foundations.md
+      - Agentic AI: ai-engineering/agentic-ai.md
+      - Full-stack LLM: ai-engineering/full-stack-llm.md
+      - AI services & APIs: ai-engineering/ai-services-and-apis.md
+      - Source index: ai-engineering/SOURCE_INDEX.md
+  - Guides & Reference:
+      - Onboarding catalog: onboarding/INDEX.md
+      - Git basics: onboarding/guides/git-basics-for-non-developers.md
+      - Public vs private Git: onboarding/guides/public-vs-private-git-strategy.md
+      - Triggers & prompts: onboarding/guides/cursor-triggers-and-prompts.md
+      - Slash commands: onboarding/reference/slash-commands.md
+      - Curated links: onboarding/links/README.md
+  - Product Management:
+      - Overview: product-management/README.md
+      - Glossary: product-management/GLOSSARY.md
+      - PM knowledge: product-management/PM_KNOWLEDGE.md
+      - Backlog best practices: product-management/BACKLOG_BEST_PRACTICES.md
+      - Doc quality criteria: product-management/PUBLIC_DOC_QUALITY_CRITERIA.md
+      - Source index: product-management/research/SOURCE_INDEX.md
+  - Companion Articles:
+      - Overview: cursor-knowledge/README.md
+      - AI context reading list: cursor-knowledge/ai-context-reading-list.md
+      - Git & GitHub companion: cursor-knowledge/git-github-companion.md
+      - Mobile web design: cursor-knowledge/mobile-web-design.md
+      - Backlog philosophy: cursor-knowledge/backlog-philosophy.md
+  - Session Log: session-log.md

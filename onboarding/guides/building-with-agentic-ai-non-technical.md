@@ -1,5 +1,21 @@
 # Building with agentic AI (non-technical)
 
+## At a glance
+
+=== "Beginner"
+
+    You don't need to learn to code. You're learning to **work with an AI assistant** to get things done — outlines, feedback, drafts, landing pages, research. Think of the AI as a fast intern: it needs a goal, constraints, and your review. This guide covers the mindset, safety basics, and first prompts to try.
+
+=== "Intermediate"
+
+    Agentic AI in Cursor means the assistant can read your project files, propose or apply edits, and chain multiple steps. Key concepts: **Plan mode** (think together, review before changes) vs. **Agent mode** (assistant executes directly). Safety: never paste secrets; verify outputs on money/health/legal; use diffs and undo. Custom slash commands extend the workflow.
+
+=== "Advanced"
+
+    This guide covers the product-owner mental model for agentic AI collaboration: defining "done" as acceptance criteria, iteration as the normal workflow (not a failure mode), and the Plan/Agent mode distinction as a trust-gradient control. For deeper technical treatment of how agents work under the hood, see [agentic AI](../../ai-engineering/agentic-ai.md).
+
+---
+
 **You are not “learning to code” first.** You are learning to **collaborate** with an AI assistant inside a tool (Cursor) so you can move product ideas forward: clearer specs, better copy, structured research, simple web pages, and prototypes — at a pace that would be painful alone.
 
 ---

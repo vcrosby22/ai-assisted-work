@@ -4,6 +4,8 @@
 
 **Companion (plain language):** [`onboarding/guides/working-with-ai-context.md`](../onboarding/guides/working-with-ai-context.md)
 
+**Deep dive (technical):** [`ai-engineering/context-engineering.md`](../ai-engineering/context-engineering.md) — synthesized knowledge article with core concepts, principles, and practical takeaways
+
 **Disclaimer:** Vendor docs change URLs; arXiv versions may update. Prefer official docs for integration decisions; papers for *why* behavior happens.
 
 ---

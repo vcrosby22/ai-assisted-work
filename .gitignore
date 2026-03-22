@@ -2,3 +2,5 @@
 .env
 .env.*
 *.pem
+site/
+docs/

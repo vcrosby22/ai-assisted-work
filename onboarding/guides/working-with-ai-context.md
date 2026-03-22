@@ -1,5 +1,21 @@
 # Working with AI context (humans + Cursor)
 
+## At a glance
+
+=== "Beginner"
+
+    AI assistants **forget** details in long conversations — they summarize older messages and lose nuance. This guide teaches you when to **start a fresh chat**, how to keep important information **in files** (not just chat), and why your project folder is the AI's most reliable memory.
+
+=== "Intermediate"
+
+    LLMs have a finite context window; long threads get compacted and lose detail. Best practices: keep truth in repo files (not chat), use `activeContext.md` or similar for session state, start fresh threads with a short handoff note, and use rules/skills for persistent instructions that survive across sessions.
+
+=== "Advanced"
+
+    Context window management across the 5-layer architecture: system identity (rules), knowledge retrieval (indexing + RAG), short-term memory (chat + activeContext), long-term memory (knowledge base, journal), and tools. Lost-in-the-middle effect (Liu et al., 2023) means position matters. For the full technical treatment, see [context engineering](../../ai-engineering/context-engineering.md).
+
+---
+
 **Goal:** Decide when to **stay in a long chat**, when to **start fresh**, and how to **keep truth in files** (your project folder) so the agent doesn’t rely only on fragile “conversation memory.” You can use these ideas even when your “repo” is just a few notes — open **any** folder in Cursor as a project.
 
 **Reading list (26 links):** [`cursor-knowledge/ai-context-reading-list.md`](../../cursor-knowledge/ai-context-reading-list.md)

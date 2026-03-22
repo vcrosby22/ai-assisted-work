@@ -7,6 +7,7 @@
 | **A — First time, non-technical** | New to Cursor and agentic AI; want quick wins without the terminal | [**Installing Cursor**](guides/installing-cursor-and-first-steps.md) → [Building with agentic AI](guides/building-with-agentic-ai-non-technical.md) → [First-week checklist](checklists/first-week-cursor-non-technical.md) → [AI context](guides/working-with-ai-context.md) → [Session playbook](guides/cursor-session-playbook.md) |
 | **B — Git and sharing** | Ready to save versions, use GitHub, or publish a site | [Git basics for non-developers](guides/git-basics-for-non-developers.md) → [Public vs private Git](guides/public-vs-private-git-strategy.md) |
 | **C — Full workspace / power user** | Setting up a private repo with backlogs, rules, commands, and automation | Everything below, then [**INDEX-full-workspace-only.md**](INDEX-full-workspace-only.md) for paths not in this public repo |
+| **D — Technical deep dives** | Want the research papers and engineering behind LLMs and agents | [**ai-engineering/**](../ai-engineering/) — context engineering, LLM foundations, agentic AI, full-stack development, AI services (54 curated sources) |
 
 ---
 

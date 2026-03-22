@@ -1,5 +1,21 @@
 # Git & GitHub — A Beginner's Guide
 
+## At a glance
+
+=== "Beginner"
+
+    Git is a tool that **saves versions** of your files — like "undo" on steroids. GitHub is a website where those versions live online so you can share them or publish a website. This guide teaches you the 5 commands you actually need: `clone`, `add`, `commit`, `push`, and `status`.
+
+=== "Intermediate"
+
+    Git version control fundamentals: clone a repo, stage changes (`git add`), commit with messages, push to remote, resolve basic conflicts. GitHub Pages for free static site hosting. Branch basics for separating experiments from main. GitHub CLI (`gh`) for authentication and pull requests from the terminal.
+
+=== "Advanced"
+
+    This guide is intentionally scoped to the non-developer workflow (linear history, single branch, terminal CLI). For branching strategies, CI/CD, submodule management, and the public/private repo split pattern used in this knowledge base, see [public vs. private Git strategy](public-vs-private-git-strategy.md) and the [session log](../../session-log.md) for real-world deployment examples.
+
+---
+
 **Audience:** Anyone who has never used Git before but needs to get code changes onto a live website (like GitHub Pages). Written from real experience deploying a financial report site.
 
 **What you'll learn:** What Git is, what GitHub is, how to clone/copy/commit/push, and how to trigger a deploy — all from your terminal.
