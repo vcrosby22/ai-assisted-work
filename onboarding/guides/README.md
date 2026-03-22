@@ -1,12 +1,13 @@
 # Guides
 
-Longer onboarding and reference documents.
+Longer onboarding and reference documents. **New here?** Start at the top.
 
 | Guide | Description |
 |-------|-------------|
-| [**Building with agentic AI (non-technical)**](building-with-agentic-ai-non-technical.md) | **Start here** if you are new to agentic AI: mindset, safety, Plan vs Agent, first prompts, bridge to project work |
+| [**Installing Cursor and first steps**](installing-cursor-and-first-steps.md) | **Start here** — download, open a folder, first AI conversation, two modes |
+| [**Building with agentic AI (non-technical)**](building-with-agentic-ai-non-technical.md) | Mindset, safety, Plan vs Agent, first prompts, bridge to project work |
 | [Working with AI context](working-with-ai-context.md) | Long chats vs new thread; **repo as memory**; rules vs chat context |
-| [Cursor session playbook](cursor-session-playbook.md) | Plan vs Agent, terminal hygiene, GitHub CLI, static site deploy, journaling and backlog patterns (project folder) |
+| [Cursor session playbook](cursor-session-playbook.md) | Plan vs Agent, terminal hygiene, GitHub CLI, static site deploy, journaling and backlog patterns |
 | [Git basics for non-developers](git-basics-for-non-developers.md) | Clone, commit, push, GitHub Pages deploy |
 | [Public vs private Git strategy](public-vs-private-git-strategy.md) | What ships **public** vs **private**; handbook `--public` |
 | [Cursor triggers and prompts](cursor-triggers-and-prompts.md) | Slash commands (see also [`../reference/slash-commands.md`](../reference/slash-commands.md)), natural phrases, Plan vs Agent |

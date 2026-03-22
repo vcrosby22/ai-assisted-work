@@ -27,7 +27,7 @@ External references for **Cursor**, **GitHub**, and **using AI responsibly**. Pr
 
 ## Deeper reading list in this repo
 
-- [`../cursor-knowledge/AGENTIC_CONTEXT_URLS.md`](../cursor-knowledge/AGENTIC_CONTEXT_URLS.md) — curated papers and vendor docs (26 links)
+- [`../cursor-knowledge/ai-context-reading-list.md`](../cursor-knowledge/ai-context-reading-list.md) — curated papers and vendor docs (26 links)
 
 ---
 

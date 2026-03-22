@@ -2,7 +2,7 @@
 
 **Goal:** Decide when to **stay in a long chat**, when to **start fresh**, and how to **keep truth in files** (your project folder) so the agent doesn’t rely only on fragile “conversation memory.” You can use these ideas even when your “repo” is just a few notes — open **any** folder in Cursor as a project.
 
-**Reading list (26 links):** [`cursor-knowledge/AGENTIC_CONTEXT_URLS.md`](../../cursor-knowledge/AGENTIC_CONTEXT_URLS.md)
+**Reading list (26 links):** [`cursor-knowledge/ai-context-reading-list.md`](../../cursor-knowledge/ai-context-reading-list.md)
 
 ---
 
@@ -64,7 +64,7 @@ Many **full** workspaces use a pattern like this:
 | **`.cursor/rules/`** | Stable instructions (Cursor: rules are injected because models **don’t** “remember” between completions the way humans do — see [Cursor Rules docs](https://cursor.com/docs/context/rules)) |
 | **`journal/`** | Narrative + decisions |
 | **`BACKLOG.md` + `BACKLOG_STORY_DETAILS.md`** | Prioritized work with **descriptions** |
-| **`CURSOR_KNOWLEDGE.md` / `cursor-knowledge/`** | Reusable facts and reading lists |
+| **`session-log.md` / `cursor-knowledge/`** | Reusable facts and reading lists |
 
 If you only have this **public** knowledge pack, you still have **`cursor-knowledge/`**, **`product-management/`**, and onboarding guides — use **one** note file (e.g. `MY_CONTEXT.md`) as a mini–`activeContext` until you adopt a bigger template. See [onboarding `README`](../README.md) vs [full workspace catalog](../INDEX-full-workspace-only.md).
 
@@ -85,8 +85,8 @@ If you only have this **public** knowledge pack, you still have **`cursor-knowle
 Share two files:
 
 1. This guide (**how to behave**).  
-2. [`AGENTIC_CONTEXT_URLS.md`](../../cursor-knowledge/AGENTIC_CONTEXT_URLS.md) (**why** — 26 sources: papers + vendor docs).
+2. [`ai-context-reading-list.md`](../../cursor-knowledge/ai-context-reading-list.md) (**why** — 26 sources: papers + vendor docs).
 
 ---
 
-*Changelog: 2026-03-25 — Initial version; pairs with AGENTIC_CONTEXT_URLS.md.*
+*Changelog: 2026-03-25 — Initial version; pairs with ai-context-reading-list.md.*

@@ -11,7 +11,7 @@ This page summarizes common commands from the **where_cursor_feels_home**-style 
 | Command | When to use | What it typically does |
 |---------|-------------|-------------------------|
 | **`/journal`** | End of day or after a meaningful session | Create or update **today’s journal**; may draft **Backlog candidates** and **Glossary candidates**. |
-| **`/session-end`** | You are closing a session | Wrap-up: journal sections, backlog/glossary candidates, update **`activeContext.md`**, optional **`CURSOR_KNOWLEDGE.md`**. |
+| **`/session-end`** | You are closing a session | Wrap-up: journal sections, backlog/glossary candidates, update **`activeContext.md`**, optional **`session-log.md`**. |
 | **`/pm`** | Product thinking | Load **product management** context — discovery, prioritization, roadmaps, AI product risks; reads **`product-management/PM_KNOWLEDGE.md`** when present. |
 | **`/pmo`** | Delivery / process | **PMO** context — Agile, Lean, Six Sigma, CRISP-DM; reads **`pmo/PMO_KNOWLEDGE.md`** when present (not in minimal public tree). |
 | **`/capture-idea`** | Mid-task “park this thought” | Append a quick line to **`BACKLOG_INBOX.md`** (or equivalent) without derailing the current build — **only if that file exists**. |

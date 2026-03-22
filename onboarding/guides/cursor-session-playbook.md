@@ -63,7 +63,7 @@ Long threads get summarized or truncated. **Don’t rely** on infinite chat memo
 ## Related in this repo
 
 - `PROJECT_CONTEXT.md`, `PRIMARY_OBJECTIVES.md`
-- `cursor-knowledge/BACKLOG_PHILOSOPHY.md`
+- `cursor-knowledge/backlog-philosophy.md`
 - `.cursor/skills/session-backlog-scan/SKILL.md`
 - `.cursor/skills/website-qa/SKILL.md` (pre-share QA for the market report site)
 

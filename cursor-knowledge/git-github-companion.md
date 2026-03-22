@@ -81,7 +81,7 @@ When a GitHub Action fails:
 | Artifact | Path | Audience |
 |----------|------|----------|
 | Beginner guide | `onboarding/guides/git-basics-for-non-developers.md` | Non-technical; first-time Git users |
-| Knowledge base (this file) | `cursor-knowledge/GIT_GITHUB_ONBOARDING.md` | Anyone maintaining the knowledge base |
+| Knowledge base (this file) | `cursor-knowledge/git-github-companion.md` | Anyone maintaining the knowledge base |
 | Porting guide | `financial-agent/PORTING.md` | Contributors syncing to financial-reports |
 
 ---

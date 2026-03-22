@@ -2,7 +2,7 @@
 
 **Purpose:** Single reference for what “backlog” means here, how we **capture** work from conversation, and how to structure a backlog if the goal is **compounding agent + human capability** over time.
 
-**Canonical prioritized list:** [`BACKLOG.md`](../../BACKLOG.md) (repo root) — rules: `.cursor/rules/backlog-prioritization.mdc`, `.cursor/rules/backlog-notify.mdc`. **Epic → Story → Description:** [`BACKLOG_STORY_DETAILS.md`](../../BACKLOG_STORY_DETAILS.md), [`BACKLOG_HIERARCHY.md`](../../BACKLOG_HIERARCHY.md). **Product backlog URLs (13+):** [`BACKLOG_PRODUCT_PRACTICES_URLS.md`](BACKLOG_PRODUCT_PRACTICES_URLS.md).
+**Canonical prioritized list:** [`BACKLOG.md`](../../BACKLOG.md) (repo root) — rules: `.cursor/rules/backlog-prioritization.mdc`, `.cursor/rules/backlog-notify.mdc`. **Epic → Story → Description:** [`BACKLOG_STORY_DETAILS.md`](../../BACKLOG_STORY_DETAILS.md), [`BACKLOG_HIERARCHY.md`](../../BACKLOG_HIERARCHY.md). **Product backlog URLs (13+):** [`backlog-practices-reading-list.md`](backlog-practices-reading-list.md).
 
 **Rich tickets (optional):** Field definitions, epic keys (`EP-NN`), templates, and `TKT-NNNNN` keys live under [`backlog/`](../backlog/README.md) — see [`backlog/TICKETING_MODEL.md`](../backlog/TICKETING_MODEL.md). The root table stays the **slim ordered index**; full markdown tickets are for history, assignee, and paste-friendly descriptions.
 

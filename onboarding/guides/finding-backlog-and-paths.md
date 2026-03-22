@@ -33,4 +33,4 @@ open BACKLOG.md    # optional: opens in default app
 
 - **Backlog rules:** `.cursor/rules/backlog-prioritization.mdc`, `.cursor/rules/backlog-notify.mdc`
 - **Quick add rows:** type **`a2b`** + Tab in `BACKLOG.md` (see [`../snippets/backlog-shortcut.md`](../snippets/backlog-shortcut.md))
-- **Philosophy:** [`../../cursor-knowledge/BACKLOG_PHILOSOPHY.md`](../../cursor-knowledge/BACKLOG_PHILOSOPHY.md)
+- **Philosophy:** [`../../cursor-knowledge/backlog-philosophy.md`](../../cursor-knowledge/backlog-philosophy.md)

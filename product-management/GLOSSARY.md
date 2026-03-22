@@ -63,7 +63,7 @@ Many-to-many in real life; this table is **where delivery attention usually sits
 | **Time to first user** | Understand product and delivery language | How quickly you can put a **small real version** in front of someone who actually cares (not how polished the vision is). | [`PM_KNOWLEDGE.md`](PM_KNOWLEDGE.md) §6.3 |
 | **Personal itch** | Understand product and delivery language | Building something **you** keep wanting to use or fix — a sanity check for stamina through boring implementation work. | [`PM_KNOWLEDGE.md`](PM_KNOWLEDGE.md) §6.3 |
 | **Compaction** (AI chat) | Work effectively with AI in Cursor | When the product **summarizes or trims** older messages so the model fits in its context window — themes survive, **exact wording and paths** may not. | [`working-with-ai-context.md`](../onboarding/guides/working-with-ai-context.md) |
-| **Lost in the middle** | Work effectively with AI in Cursor | Research observation: models often **underweight facts** buried in a **long middle** of text; put critical facts at **start/end** or in **repo files**. | Same guide + [`AGENTIC_CONTEXT_URLS.md`](../cursor-knowledge/AGENTIC_CONTEXT_URLS.md) |
+| **Lost in the middle** | Work effectively with AI in Cursor | Research observation: models often **underweight facts** buried in a **long middle** of text; put critical facts at **start/end** or in **repo files**. | Same guide + [`ai-context-reading-list.md`](../cursor-knowledge/ai-context-reading-list.md) |
 
 ## This workspace & Cursor
 

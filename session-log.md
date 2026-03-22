@@ -1,6 +1,8 @@
-# Cursor Knowledge Base
+# Session log — what was built and what was learned
 
-Accumulated knowledge from all sessions — use cases, technologies, architecture, and lessons learned.
+This is the maintainer's **build diary**: real Cursor sessions showing what was built, which technologies were used, architecture decisions, and lessons learned along the way. It's not a tutorial — it's a window into how one person actually uses Cursor for real work.
+
+> **Looking for guides instead?** Start with the [onboarding folder](onboarding/) or the [README](README.md).
 
 ---
 
@@ -66,7 +68,7 @@ Accumulated knowledge from all sessions — use cases, technologies, architectur
 | A: System Identity | Role, reasoning behavior, constraints | `philosophy.mdc`, `ai-coach-role.mdc`, `ai-coach-personality.mdc` |
 | B: Knowledge Retrieval | Selective information from knowledge stores | Cursor's built-in indexing + `.cursorignore` optimization |
 | C: Short-term Memory | Conversation history, intermediate results | Chat context + `activeContext.md` |
-| D: Long-term Memory | Facts across sessions, decisions, patterns | This repo: `CURSOR_KNOWLEDGE.md` — optional private monorepo extras: `journal/`, `agent-log/`, `profile` |
+| D: Long-term Memory | Facts across sessions, decisions, patterns | This repo: `session-log.md` — optional private monorepo extras: `journal/`, `agent-log/`, `profile` |
 | E: Tools & Output | Tool definitions, available actions | `.cursor/commands/`, `.cursor/skills/`, `.cursor/hooks.json` |
 
 ### The Token Tax Problem

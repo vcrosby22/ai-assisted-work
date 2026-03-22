@@ -9,10 +9,10 @@
 
 ## Goals
 
-1. **Cursor Knowledge (primary)** — Capture use cases, technologies, architecture, and lessons from meaningful sessions (**this repo’s `CURSOR_KNOWLEDGE.md`**).
+1. **Cursor Knowledge (primary)** — Capture use cases, technologies, architecture, and lessons from meaningful sessions (this repo's [`session-log.md`](session-log.md)).
 2. **Growth** — Reflection and journaling *(recommend a **private** repo or local-only files — not published here).*
 3. **Builder culture** — Turn solved problems into reusable rules, skills, and tools.
-4. **Sharing** — Package learnings for others (e.g. “Cursor for PMs” style resources).
+4. **Sharing** — Package learnings for others (e.g. "Cursor for PMs" style resources).
 
 ## Typical foundation in a *private* workspace
 
@@ -25,15 +25,15 @@
 | **Hooks** | Automation | `.cursor/hooks.json` |
 | **Journal** | Daily / weekly *(optional)* | `journal/` — **keep private** |
 | **Profiles** | Assessments / background _(optional)_ | `profile/` — **keep private** |
-| **Knowledge** | Session learnings (shareable) | **`CURSOR_KNOWLEDGE.md`** in this public repo *or* mirror from private |
+| **Knowledge** | Session learnings (shareable) | **`session-log.md`** in this public repo *or* mirror from private |
 | **Indexing** | `.cursorignore` | Exclude `node_modules/`, secrets, large assets |
 
 ## Conventions (template)
 
-- After meaningful work, append to **`CURSOR_KNOWLEDGE.md`** (here or in a private mirror).
+- After meaningful work, append to **`session-log.md`** (here or in a private mirror).
 - Keep **secrets**, **tokens**, and **personal** notes out of public git.
 - When a workflow is reusable, extract a **skill** or **rule** in your private workspace.
 
 ---
 
-*Template maintained by Victoria Crosby ([@vcrosby22](https://github.com/vcrosby22)). Last updated: 2026-03-20.*
+*Template maintained by Victoria Crosby ([@vcrosby22](https://github.com/vcrosby22)). Last updated: 2026-03-22.*
