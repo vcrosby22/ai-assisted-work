@@ -86,13 +86,38 @@ Welcome to a **free, open collection** of guides, technical knowledge, and resou
 
 ## What's in this knowledge base
 
-| Section | What's inside | Who it's for |
-|---------|--------------|--------------|
-| [**Getting Started**](onboarding/guides/installing-cursor-and-first-steps.md) | Guides, checklists, and reference for learning Cursor | Everyone |
-| [**AI Engineering**](ai-engineering/README.md) | LLM foundations, agentic AI, context engineering, full-stack development, AI services | Engineers and power users |
-| [**Guides & Reference**](onboarding/INDEX.md) | Git basics, triggers, prompts, slash commands, curated links | All levels |
-| [**Product Management**](product-management/README.md) | PM frameworks, glossary, backlog practices | PMs and product people |
-| [**Companion Articles**](cursor-knowledge/README.md) | AI context reading lists, mobile UX, Git patterns | Intermediate+ |
+=== "Beginner"
+
+    Focus on learning Cursor and building your first projects — no code or Git required.
+
+    | Section | What's inside |
+    |---------|--------------|
+    | [**Getting Started**](onboarding/guides/installing-cursor-and-first-steps.md) | Install Cursor, have your first AI conversation, and follow a first-week plan |
+    | [**Glossary**](product-management/GLOSSARY.md) | Plain-language definitions for technical terms you'll encounter |
+    | [**Curated links**](onboarding/links/README.md) | Handpicked external resources on AI safety, privacy, and research literacy |
+
+=== "Intermediate"
+
+    You're using Cursor regularly — now learn to share work, manage context, and customize your setup.
+
+    | Section | What's inside |
+    |---------|--------------|
+    | [**Getting Started**](onboarding/guides/installing-cursor-and-first-steps.md) | Guides, checklists, and reference for learning Cursor |
+    | [**Guides & Reference**](onboarding/INDEX.md) | Git basics, triggers & prompts, slash commands, session playbooks |
+    | [**Product Management**](product-management/README.md) | PM frameworks, glossary, backlog best practices |
+    | [**Companion Articles**](cursor-knowledge/README.md) | AI context reading lists, mobile web UX, Git workflow patterns |
+
+=== "Advanced"
+
+    Deep technical content — LLM architectures, agent design, evaluation, and 100+ scholarly sources.
+
+    | Section | What's inside |
+    |---------|--------------|
+    | [**AI Engineering**](ai-engineering/README.md) | LLM foundations, agentic AI, context engineering, full-stack LLM development, AI services & APIs |
+    | [**Sources**](sources.md) | 102 deduplicated references — research papers, vendor docs, practitioner content |
+    | [**Companion Articles**](cursor-knowledge/README.md) | AI context reading lists, mobile web design, backlog philosophy |
+    | [**Full onboarding catalog**](onboarding/INDEX.md) | Every guide with reading paths A–D |
+    | [**Product Management**](product-management/README.md) | PM knowledge base, quality criteria, backlog practices |
 
 ---
 
