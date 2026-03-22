@@ -32,6 +32,7 @@ jobs:
           mkdir -p docs
           cp index.md docs/
           cp session-log.md docs/
+          cp sources.md docs/
           cp PROJECT_CONTEXT.md docs/
           cp -r onboarding docs/
           cp -r ai-engineering docs/

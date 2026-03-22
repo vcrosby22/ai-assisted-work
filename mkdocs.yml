@@ -90,4 +90,5 @@ nav:
       - Git & GitHub companion: cursor-knowledge/git-github-companion.md
       - Mobile web design: cursor-knowledge/mobile-web-design.md
       - Backlog philosophy: cursor-knowledge/backlog-philosophy.md
+  - Sources: sources.md
   - Session Log: session-log.md
