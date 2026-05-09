@@ -2,7 +2,8 @@
 
 **Purpose:** Canonical list of URLs used to seed **`PM_KNOWLEDGE.md`**.  
 **Harvest method:** Automated page fetch + human synthesis (not a raw scrape dump).  
-**Harvest date:** 2026-03-19. Re-validate links before relying on quotes; pages change.
+**Harvest date:** 2026-03-19. Re-validate links before relying on quotes; pages change.  
+**Latest delta:** 2026-05-09 design methodology resource pack: [`2026-05-09-design-methodology-resource-pack.md`](2026-05-09-design-methodology-resource-pack.md).
 
 ## By domain
 
@@ -38,6 +39,49 @@
 
 **Count:** **27 URLs** in this index (meets ≥25 crawl requirement).  
 **Retry on next refresh:** AWS “Working Backwards” / PR-FAQ primary pages; Atlassian user-stories page (timeout in this pass).
+
+---
+
+## 2026-05-09 AI PM agent delta
+
+Fresh fetch for context engineering as it applies to product management and AI PM agent workflows.
+
+| # | Domain | Category | URL |
+|---|--------|----------|-----|
+| 28 | SVPG | Product operating model | [The Product Operating Model](https://svpg.com/the-product-model/) |
+| 29 | SVPG | Team model | [Product vs Feature Teams](https://www.svpg.com/product-vs-feature-teams/) |
+| 30 | Product Talk | Discovery | [Product Discovery Basics](https://www.producttalk.org/2021/08/product-discovery/) |
+| 31 | Product Talk | Discovery structure | [Opportunity Solution Trees](https://www.producttalk.org/2021/04/opportunity-solution-trees/) |
+| 32 | Intercom | Prioritization | [RICE Prioritization Framework](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) |
+| 33 | NN/g | UX strategy / roadmapping | [UX Roadmaps](https://www.nngroup.com/articles/ux-roadmaps/) |
+| 34 | Amplitude | Metrics / strategy | [North Star Metric](https://amplitude.com/blog/product-north-star-metric) |
+| 35 | Atlassian | Product roadmaps | [Product Roadmap Guide](https://www.atlassian.com/agile/product-management/product-roadmaps) |
+| 36 | Basecamp | Delivery shaping | [Shape Up introduction](https://basecamp.com/shapeup/0.3-chapter-01) |
+| 37 | DigitalOcean | Requirements | [How to Write a PRD](https://www.digitalocean.com/resources/articles/product-requirements-document) |
+| 38 | IdeaPlan | PM context engineering | [Context Engineering for Product Managers](https://www.ideaplan.io/blog/context-engineering-for-product-managers) |
+| 39 | Anthropic | Agent design | [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) |
+| 40 | Martin Fowler / Thoughtworks | Context engineering | [Context Engineering for Coding Agents](https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html) |
+
+**Total indexed entries after delta:** **40**. Some entries are deliberate re-fetches of core sources from the initial index.
+
+---
+
+## 2026-05-09 design methodology delta
+
+Fresh fetch for design-methodology context used by product-management agents during product/service design work.
+
+| # | Domain | Category | URL |
+|---|--------|----------|-----|
+| 41 | Design Council | Double Diamond | [The Double Diamond](https://www.designcouncil.org.uk/our-work/the-double-diamond/) |
+| 42 | ISO | Human-centered design | [ISO 9241-210:2019](https://www.iso.org/standard/77520.html) |
+| 43 | NN/g | Design thinking | [Design Thinking 101](https://www.nngroup.com/articles/design-thinking/) |
+| 44 | Interaction Design Foundation | User-centered design | [User-Centered Design](https://www.interaction-design.org/literature/topics/user-centered-design) |
+| 45 | Interaction Design Foundation | Design thinking | [Five Stages in the Design Thinking Process](https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process) |
+| 46 | NN/g | Service design | [Service Design 101](https://www.nngroup.com/articles/service-design-101/) |
+| 47 | NN/g | Service blueprinting | [Service Blueprints](https://www.nngroup.com/articles/service-blueprints-definition/) |
+| 48 | IBM | Enterprise design thinking | [Enterprise Design Thinking](https://www.ibm.com/design/thinking/) |
+
+**Total indexed entries after design-methodology delta:** **48**. Some entries are deliberate re-fetches or expanded treatment of core UX/design sources.
 
 ---
 

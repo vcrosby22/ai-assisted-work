@@ -2,7 +2,7 @@
 
 Synthesized reference for **software, hardware, UI/UX, data-intensive, and AI/ML** product work. This file is **not** legal advice; EU AI Act and similar entries are pointers for **compliance awareness** — verify with counsel.
 
-**Canonical URL list:** [`research/SOURCE_INDEX.md`](research/SOURCE_INDEX.md) (27 sources, harvested 2026-03-19).
+**Canonical URL list:** [`research/SOURCE_INDEX.md`](research/SOURCE_INDEX.md) (initial harvest 2026-03-19, AI PM agent and design methodology deltas 2026-05-09; some core sources are intentionally re-fetched across passes).
 
 ---
 
@@ -12,14 +12,15 @@ Synthesized reference for **software, hardware, UI/UX, data-intensive, and AI/ML
 |----------------|----------------------|
 | Org model, empowerment, discovery cadence | §1 Traditional / software |
 | Physical product, gates, long-cycle NPD | §2 Hardware / NPD |
-| UX strategy, design process, JTBD vs personas | §3 UI / UX |
+| UX strategy, design methods, Design Thinking, UCD/HCD, Service Design, Double Diamond, JTBD vs personas | §3 UI / UX |
 | Metrics, prioritization scores, roadmaps | §4 Data, prioritization, roadmaps |
 | ML viability, responsible AI, LLM security, regulation | §5 AI / ML |
 | Product idea framing, defensibility, what to optimize for first | §6 Ideation & strategy vocabulary |
 | **Backlog hygiene** — ordering, refinement, DEEP/INVEST, discovery vs delivery | §7 Backlog management · [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md) (public URL list) |
+| **AI PM agent work** — context packet, workflow routing, templates, agent guardrails | §9 AI PM agent operating layer · [`context/AI_PM_AGENT_CONTEXT.md`](context/AI_PM_AGENT_CONTEXT.md) · [`workflows/AI_PM_WORKFLOWS.md`](workflows/AI_PM_WORKFLOWS.md) |
 | Plain definitions, acronyms, non-developer onboarding vocabulary; **Category** for user-outcome filtering | [`GLOSSARY.md`](GLOSSARY.md) |
 
-**Changelog:** 2026-03-21 — **§7** split: public best practices + abstract layering; curated URLs moved to [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md). 2026-03-20 — **§7 Backlog management** (workspace Purpose → Epic → Story, DEEP/refinement pointers). 2026-03-20 — GLOSSARY: **Parent outcome** categories + **BL-29**. Link to `GLOSSARY.md` for terms sheet. §6 workspace capture (ideation example, defensibility, choice lenses). 2026-03-19 — Initial synthesis from 27 web sources (`SOURCE_INDEX.md`).
+**Changelog:** 2026-05-09 — **§3 UI / UX** expanded with design methodology: Design Thinking, UCD/HCD, Service Design, Service Blueprinting, and Double Diamond; 8-source design-methodology delta added. 2026-05-09 — **§9 AI PM agent operating layer** added; 13-source delta for PM frameworks, context engineering, workflows, and reusable templates. 2026-03-21 — **§7** split: public best practices + abstract layering; curated URLs moved to [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md). 2026-03-20 — **§7 Backlog management** (workspace Purpose → Epic → Story, DEEP/refinement pointers). 2026-03-20 — GLOSSARY: **Parent outcome** categories + **BL-29**. Link to `GLOSSARY.md` for terms sheet. §6 workspace capture (ideation example, defensibility, choice lenses). 2026-03-19 — Initial synthesis from 27 web sources (`SOURCE_INDEX.md`).
 
 ---
 
@@ -93,13 +94,48 @@ A **UX roadmap** is a **living strategic artifact**: beneficiary + need, **busin
 
 IDEO/Nielsen Norman distillation: **empathize, define, ideate, prototype, test, implement** within buckets **understand → explore → materialize**. Process is **iterative**, not strictly linear; **implementation** is often neglected — “more design doing.”
 
-*Sources: [NN/g – Design thinking 101](https://www.nngroup.com/articles/design-thinking/)*
+Use design thinking when the product team needs a shared problem-solving loop: build empathy, define the right problem, diverge on ideas, prototype cheaply, test with users, and carry learning into implementation. Do not treat the phases as a waterfall; loop back when tests change the problem or reveal a better opportunity.
+
+*Sources: [NN/g – Design thinking 101](https://www.nngroup.com/articles/design-thinking/), [IxDF – Five stages in the design thinking process](https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process), [IBM – Enterprise Design Thinking](https://www.ibm.com/design/thinking/)*
 
 ### 3.3 Jobs-to-be-done vs personas
 
 **JTBD** frames needs as **outcomes** users hire products to achieve; strong **personas** embed behavioral, attitudinal, and goal data — not only demographics. JTBD alone may underweight **empathy** and **segment tradeoffs**; combined use is common.
 
 *Sources: [HBR – Jobs to be done](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done), [NN/g – Personas vs JTBD](https://www.nngroup.com/articles/personas-jobs-be-done/)*
+
+### 3.4 User-centered and human-centered design
+
+**User-centered design (UCD)** keeps user goals, tasks, context, and feedback central throughout product definition, interaction design, and validation. It is useful when turning PM requirements into flows, prototypes, usability tests, and acceptance criteria grounded in real user behavior.
+
+**Human-centered design (HCD)** is broader: it considers human capabilities, limitations, context, ergonomics, usability, and life-cycle management for interactive systems. Use HCD when a product or service has safety, accessibility, operational, or high-stakes human-system interaction concerns.
+
+**Agent takeaway:** before proposing a solution, identify the target user, context of use, task, pain, constraint, evidence, and validation method. Mark assumptions when user evidence is missing.
+
+*Sources: [IxDF – User-Centered Design](https://www.interaction-design.org/literature/topics/user-centered-design), [ISO 9241-210:2019](https://www.iso.org/standard/77520.html)*
+
+### 3.5 Double Diamond
+
+The **Double Diamond** models design work as two rounds of divergence and convergence:
+
+1. **Discover** — understand the problem by speaking with and observing people affected by it.
+2. **Define** — synthesize insights into a clearer challenge.
+3. **Develop** — explore multiple possible answers, often through co-design and outside inspiration.
+4. **Deliver** — test solutions at small scale, reject weak options, and improve promising ones.
+
+Use it when a team is jumping too quickly to features or when stakeholders disagree about the problem. It is not a rigid instruction manual; teams may loop back as evidence changes.
+
+*Sources: [Design Council – The Double Diamond](https://www.designcouncil.org.uk/our-work/the-double-diamond/)*
+
+### 3.6 Service design and service blueprinting
+
+**Service design** plans and organizes a business's **people, props, and processes** to improve employee experience directly and customer experience indirectly. Use it when the product experience depends on support, operations, policy, fulfillment, sales, onboarding, or other backstage work.
+
+**Service blueprints** map one journey across customer actions, frontstage actions, backstage actions, support processes, evidence, and lines of interaction/visibility/internal interaction. They expose dependencies and weak links that a screen-level UX flow can miss.
+
+**PM use cases:** omnichannel journeys, onboarding/support flows, AI agent handoffs, internal tools, fulfillment processes, and products where customer experience breaks because of organizational seams.
+
+*Sources: [NN/g – Service Design 101](https://www.nngroup.com/articles/service-design-101/), [NN/g – Service Blueprints](https://www.nngroup.com/articles/service-blueprints-definition/)*
 
 ---
 
@@ -260,7 +296,45 @@ The **author’s** actual prioritized list, inbox, ticket files, purpose/epic re
 
 ---
 
-## 9. Gaps for future hydration
+## 9. AI PM agent operating layer
+
+**Goal:** make product-management capability available to any agent through versioned repo context, not chat memory.
+
+### 9.1 Context engineering stance
+
+For PM work, context engineering means deciding **what product context an agent receives, when, and in what structure**. The agent should not load the entire PM knowledge base by default. It should start with a minimal context packet: product, target user, business objective, product outcome, evidence, constraints, decision needed, and audience.
+
+*Sources: [IdeaPlan – Context Engineering for Product Managers](https://www.ideaplan.io/blog/context-engineering-for-product-managers), [Martin Fowler / Thoughtworks – Context Engineering for Coding Agents](https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html)*
+
+### 9.2 Workflow before autonomy
+
+Most PM tasks are better served by explicit workflows than by unconstrained autonomy. Strategy briefs, discovery plans, prioritization scorecards, roadmaps, PRDs, and shaped pitches have predictable steps and review criteria. Use autonomous agent behavior only for open-ended research or multi-step synthesis where the agent can gather ground truth and pause at checkpoints.
+
+*Sources: [Anthropic – Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)*
+
+### 9.3 Capability surface
+
+The first AI PM agent capability layer in this repo includes:
+
+- [`context/AI_PM_AGENT_CONTEXT.md`](context/AI_PM_AGENT_CONTEXT.md) — identity, source hierarchy, required context packet, reasoning loop, guardrails.
+- [`workflows/AI_PM_WORKFLOWS.md`](workflows/AI_PM_WORKFLOWS.md) — router for strategy, discovery, prioritization, roadmapping, PRD, Shape Up-style delivery shaping, context engineering, and PM review.
+- [`templates/PM_AGENT_TEMPLATES.md`](templates/PM_AGENT_TEMPLATES.md) — copy-ready artifact templates for common PM deliverables.
+- [`research/2026-05-09-ai-pm-agent-resource-pack.md`](research/2026-05-09-ai-pm-agent-resource-pack.md) — 13-source fresh resource pack and synthesis.
+
+### 9.4 Agent behavior expectations
+
+An AI PM agent should:
+
+1. Translate feature requests into customer problems and product outcomes.
+2. Preserve traceability from outcome to opportunity, solution, test, requirement, and release signal.
+3. Separate roadmap, PRD, backlog, and release-plan concepts.
+4. Mark assumptions and evidence quality plainly.
+5. Use prioritization frameworks as decision support, not as automatic decisions.
+6. Keep context small and source-aware.
+
+---
+
+## 10. Gaps for future hydration
 
 - **Amazon Working Backwards / PR-FAQ** (primary AWS sources)
 - **Data mesh / data product** paradigms (internal data platforms)

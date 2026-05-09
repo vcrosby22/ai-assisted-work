@@ -1,0 +1,22 @@
+---
+description: Load product-management methodology for PM, product planning, product design, discovery, roadmap, PRD, UCD/HCD, service design, or Double Diamond work.
+globs: product-management/**,**/*prd*.md,**/*roadmap*.md,**/*discovery*.md,**/*product*.md,**/*design*.md
+alwaysApply: false
+---
+
+# PM Methodology
+
+Use the project `product-management` methodology when the user asks about or implies:
+
+- `pm`, product management, product planning, product strategy, product design, product discovery, prioritization, roadmap, PRD, backlog, requirements, release planning, or stakeholder product docs.
+- Design Thinking, UCD, user-centered design, HCD, human-centered design, Service Design, Service Blueprinting, Double Diamond, journey mapping, prototyping, usability testing, or experience design.
+
+When triggered:
+
+1. Read `product-management/context/AI_PM_AGENT_CONTEXT.md`.
+2. Route the task with `product-management/workflows/AI_PM_WORKFLOWS.md`.
+3. Use templates from `product-management/templates/PM_AGENT_TEMPLATES.md`.
+4. For design-methodology work, load `product-management/research/2026-05-09-design-methodology-resource-pack.md`.
+5. For source provenance, cite `product-management/research/SOURCE_INDEX.md`.
+
+Prefer outcome framing, user evidence, and explicit assumptions over feature-list transcription.
