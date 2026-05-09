@@ -2,7 +2,7 @@
 
 Synthesized reference for **software, hardware, UI/UX, data-intensive, and AI/ML** product work. This file is **not** legal advice; EU AI Act and similar entries are pointers for **compliance awareness** — verify with counsel.
 
-**Canonical URL list:** [`research/SOURCE_INDEX.md`](research/SOURCE_INDEX.md) (initial harvest 2026-03-19, AI PM agent and design methodology deltas 2026-05-09; some core sources are intentionally re-fetched across passes).
+**Canonical URL list:** [`research/SOURCE_INDEX.md`](research/SOURCE_INDEX.md) (initial harvest 2026-03-19; AI PM agent, design methodology, regulated medtech design, and RSNA ICH evidence-map deltas 2026-05-09; some core sources are intentionally re-fetched across passes).
 
 ---
 
@@ -14,13 +14,13 @@ Synthesized reference for **software, hardware, UI/UX, data-intensive, and AI/ML
 | Physical product, gates, long-cycle NPD | §2 Hardware / NPD |
 | UX strategy, design methods, Design Thinking, UCD/HCD, Service Design, Double Diamond, JTBD vs personas | §3 UI / UX |
 | Metrics, prioritization scores, roadmaps | §4 Data, prioritization, roadmaps |
-| ML viability, responsible AI, LLM security, regulation | §5 AI / ML |
+| ML viability, responsible AI, LLM security, regulation, regulated medtech/SaMD | §5 AI / ML |
 | Product idea framing, defensibility, what to optimize for first | §6 Ideation & strategy vocabulary |
 | **Backlog hygiene** — ordering, refinement, DEEP/INVEST, discovery vs delivery | §7 Backlog management · [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md) (public URL list) |
 | **AI PM agent work** — context packet, workflow routing, templates, agent guardrails | §9 AI PM agent operating layer · [`context/AI_PM_AGENT_CONTEXT.md`](context/AI_PM_AGENT_CONTEXT.md) · [`workflows/AI_PM_WORKFLOWS.md`](workflows/AI_PM_WORKFLOWS.md) |
 | Plain definitions, acronyms, non-developer onboarding vocabulary; **Category** for user-outcome filtering | [`GLOSSARY.md`](GLOSSARY.md) |
 
-**Changelog:** 2026-05-09 — **§3 UI / UX** expanded with design methodology: Design Thinking, UCD/HCD, Service Design, Service Blueprinting, and Double Diamond; 8-source design-methodology delta added. 2026-05-09 — **§9 AI PM agent operating layer** added; 13-source delta for PM frameworks, context engineering, workflows, and reusable templates. 2026-03-21 — **§7** split: public best practices + abstract layering; curated URLs moved to [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md). 2026-03-20 — **§7 Backlog management** (workspace Purpose → Epic → Story, DEEP/refinement pointers). 2026-03-20 — GLOSSARY: **Parent outcome** categories + **BL-29**. Link to `GLOSSARY.md` for terms sheet. §6 workspace capture (ideation example, defensibility, choice lenses). 2026-03-19 — Initial synthesis from 27 web sources (`SOURCE_INDEX.md`).
+**Changelog:** 2026-05-09 — RSNA ICH evidence-map POC added in [`research/2026-05-09-rsna-ich-evidence-map-poc.md`](research/2026-05-09-rsna-ich-evidence-map-poc.md); 6-source RSNA/ICH delta added to `SOURCE_INDEX.md`. 2026-05-09 — **§5.5 Regulated healthcare / medtech design** added; 8-source regulated-medtech delta added. 2026-05-09 — **§3 UI / UX** expanded with design methodology: Design Thinking, UCD/HCD, Service Design, Service Blueprinting, and Double Diamond; 8-source design-methodology delta added. 2026-05-09 — **§9 AI PM agent operating layer** added; 13-source delta for PM frameworks, context engineering, workflows, and reusable templates. 2026-03-21 — **§7** split: public best practices + abstract layering; curated URLs moved to [`BACKLOG_BEST_PRACTICES.md`](BACKLOG_BEST_PRACTICES.md). 2026-03-20 — **§7 Backlog management** (workspace Purpose → Epic → Story, DEEP/refinement pointers). 2026-03-20 — GLOSSARY: **Parent outcome** categories + **BL-29**. Link to `GLOSSARY.md` for terms sheet. §6 workspace capture (ideation example, defensibility, choice lenses). 2026-03-19 — Initial synthesis from 27 web sources (`SOURCE_INDEX.md`).
 
 ---
 
@@ -210,6 +210,26 @@ High-risk classes for LLM products (versions evolve): **prompt injection**, **in
 EU regulation **2024/1689** — risk-based obligations for AI in market. PMs need **awareness** of prohibited/high-risk categories, documentation, and timeline; **official text** via EUR-Lex and reputable summaries.
 
 *Sources: [EU AI Act hub](https://artificialintelligenceact.eu/the-act/)*
+
+### 5.5 Regulated healthcare / medtech design
+
+This section is **not legal or regulatory advice**. It is a PM/design framing layer for products that may be medical devices, SaMD, AI/ML-enabled medical software, digital health tools, in vitro diagnostics, or other regulated healthcare products. Verify classification, pathway, claims, and evidence requirements with qualified regulatory, quality, clinical, legal, and compliance experts.
+
+**When to switch into regulated-product mode:** medtech, medical device, regulated product, healthcare, digital health, SaMD, software as a medical device, AI medical device, clinical, patient safety, FDA, 510(k), De Novo, PMA, MDR, IVDR, CE mark, notified body, ISO 13485, ISO 14971, IEC 62366, human factors, usability engineering, design controls, risk management, QMS, or post-market surveillance.
+
+**PM framing questions:**
+
+1. What is the **intended use** and intended medical purpose?
+2. Who are the intended users, patients, and affected stakeholders?
+3. What are the use environments and reasonably foreseeable misuse/use errors?
+4. What claims might the product make, and in which geographies?
+5. Is software standalone **SaMD**, software in a device, or non-device software?
+6. What hazards, hazardous situations, risk controls, and residual-risk assumptions are known?
+7. What verification, validation, usability, clinical, QMS, and post-market evidence may be needed?
+
+**Design implications:** regulated product work should preserve traceability from user needs and intended use through design inputs, outputs, verification, validation, risk controls, usability evidence, and post-market monitoring. Human factors/usability work is safety work, not UX polish.
+
+*Sources: [FDA – Human Factors and Usability Engineering](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices), [FDA – SaMD](https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd), [FDA – AI in SaMD](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device), [European Commission – MDR/IVDR](https://health.ec.europa.eu/medical-devices-sector/new-regulations_en), [ISO 13485](https://www.iso.org/standard/59752.html), [ISO 14971](https://www.iso.org/standard/72704.html), [IEC 62366-1](https://www.iso.org/standard/63179.html), [IMDRF – SaMD definitions](https://www.imdrf.org/documents/software-medical-device-samd-key-definitions)*
 
 ---
 

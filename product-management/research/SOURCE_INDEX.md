@@ -3,7 +3,7 @@
 **Purpose:** Canonical list of URLs used to seed **`PM_KNOWLEDGE.md`**.  
 **Harvest method:** Automated page fetch + human synthesis (not a raw scrape dump).  
 **Harvest date:** 2026-03-19. Re-validate links before relying on quotes; pages change.  
-**Latest delta:** 2026-05-09 design methodology resource pack: [`2026-05-09-design-methodology-resource-pack.md`](2026-05-09-design-methodology-resource-pack.md).
+**Latest delta:** 2026-05-09 RSNA intracranial hemorrhage evidence-map POC: [`2026-05-09-rsna-ich-evidence-map-poc.md`](2026-05-09-rsna-ich-evidence-map-poc.md).
 
 ## By domain
 
@@ -82,6 +82,42 @@ Fresh fetch for design-methodology context used by product-management agents dur
 | 48 | IBM | Enterprise design thinking | [Enterprise Design Thinking](https://www.ibm.com/design/thinking/) |
 
 **Total indexed entries after design-methodology delta:** **48**. Some entries are deliberate re-fetches or expanded treatment of core UX/design sources.
+
+---
+
+## 2026-05-09 regulated medtech design delta
+
+Fresh fetch for regulated healthcare, medtech, medical-device, SaMD, AI/ML medical software, and compliance-aware design context.
+
+| # | Domain | Category | URL |
+|---|--------|----------|-----|
+| 49 | FDA | Human factors / usability | [Applying Human Factors and Usability Engineering to Medical Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices) |
+| 50 | FDA | SaMD / digital health | [Software as a Medical Device (SaMD)](https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd) |
+| 51 | FDA | AI/ML medical software | [Artificial Intelligence in Software as a Medical Device](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device) |
+| 52 | European Commission | MDR / IVDR | [Medical Devices New Regulations](https://health.ec.europa.eu/medical-devices-sector/new-regulations_en) |
+| 53 | ISO | Medical device QMS | [ISO 13485:2016](https://www.iso.org/standard/59752.html) |
+| 54 | ISO | Medical device risk management | [ISO 14971:2019](https://www.iso.org/standard/72704.html) |
+| 55 | IEC / ISO | Usability engineering | [IEC 62366-1:2015](https://www.iso.org/standard/63179.html) |
+| 56 | IMDRF | SaMD definitions | [Software as a Medical Device (SaMD): Key Definitions](https://www.imdrf.org/documents/software-medical-device-samd-key-definitions) |
+
+**Total indexed entries after regulated-medtech delta:** **56**.
+
+---
+
+## 2026-05-09 RSNA ICH evidence-map POC delta
+
+Fresh fetch for validating whether RSNA-published evidence can support a narrow AI Trust Passport / evidence-map proof of concept for intracranial hemorrhage triage on noncontrast head CT.
+
+| # | Domain | Category | URL |
+|---|--------|----------|-----|
+| 57 | RSNA / Radiology: Artificial Intelligence | ICH dataset provenance | [Construction of a Machine Learning Dataset through Collaboration: The RSNA 2019 Brain CT Hemorrhage Challenge](https://doi.org/10.1148/ryai.2020190211) |
+| 58 | RSNA / Radiology: Artificial Intelligence | ICH clinical workflow performance | [Utilization of Artificial Intelligence-based Intracranial Hemorrhage Detection on Emergent Noncontrast CT Images in Clinical Workflow](https://doi.org/10.1148/ryai.210168) |
+| 59 | RSNA / Radiology: Artificial Intelligence | ICH worklist reprioritization | [Active Reprioritization of the Reading Worklist Using Artificial Intelligence Has a Beneficial Effect on the Turnaround Time for Interpretation of Head CT with Intracranial Hemorrhage](https://doi.org/10.1148/ryai.2020200024) |
+| 60 | RSNA / Radiology: Artificial Intelligence | ICH label efficiency / weak supervision | [Examination-Level Supervision for Deep Learning-based Intracranial Hemorrhage Detection on Head CT Scans](https://doi.org/10.1148/ryai.230159) |
+| 61 | RSNA / Radiology: Artificial Intelligence | Head CT triage imaging-chain sensitivity | [Impact of Upstream Medical Image Processing on Downstream Performance of a Head CT Triage Neural Network](https://doi.org/10.1148/ryai.2021200229) |
+| 62 | NCBI PMC | Open full text mirror | [Examination-Level Supervision for Deep Learning-based Intracranial Hemorrhage Detection on Head CT Scans](https://pmc.ncbi.nlm.nih.gov/articles/PMC10831525/) |
+
+**Total indexed entries after RSNA ICH evidence-map delta:** **62**.
 
 ---
 
