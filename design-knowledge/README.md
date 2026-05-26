@@ -6,6 +6,8 @@
 
 **Companion:** [`AGENTS.md`](AGENTS.md) (what to load per task) · [`context-engineering.md`](context-engineering.md) (how to load it) · [`ai-engineering/context-engineering.md`](../ai-engineering/context-engineering.md) (general LLM context)
 
+**Cursor skill:** [`.cursor/skills/design-knowledge/SKILL.md`](../.cursor/skills/design-knowledge/SKILL.md) — auto-invoked when you ask to build a website, web app, storefront, or new customer-facing product.
+
 ---
 
 ## Who this is for
