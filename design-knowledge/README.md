@@ -6,7 +6,14 @@
 
 **Companion:** [`AGENTS.md`](AGENTS.md) (what to load per task) · [`context-engineering.md`](context-engineering.md) (how to load it) · [`ai-engineering/context-engineering.md`](../ai-engineering/context-engineering.md) (general LLM context)
 
-**Cursor skill:** [`.cursor/skills/design-knowledge/SKILL.md`](../.cursor/skills/design-knowledge/SKILL.md) — auto-invoked when you ask to build a website, web app, storefront, or new customer-facing product.
+**Cursor skills:**
+
+| Scope | Path |
+|-------|------|
+| **This repo** | [`.cursor/skills/design-knowledge/SKILL.md`](../.cursor/skills/design-knowledge/SKILL.md) |
+| **All workspaces** (Victoria) | `~/.cursor/skills/design-knowledge/SKILL.md` — thin router to this KB |
+
+Both trigger on build website / new product / UI / e-commerce asks.
 
 ---
 

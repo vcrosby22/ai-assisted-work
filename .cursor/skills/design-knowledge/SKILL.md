@@ -5,6 +5,8 @@ description: Applies the design-knowledge base for UI, website, e-commerce, acce
 
 # Design & Web Knowledge
 
+> **Other workspaces:** Victoria’s global router is `~/.cursor/skills/design-knowledge/SKILL.md` (resolves paths into this repo). In **ai-assisted-work**, use this file — KB paths are relative below.
+
 ## Quick Start
 
 When this skill applies:
