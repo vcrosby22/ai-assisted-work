@@ -78,7 +78,7 @@ It grew out of a private workspace where Victoria journals, builds projects, and
 <details>
 <summary>Technical details (click to expand)</summary>
 
-- The private workspace [where_cursor_feels_home](https://github.com/vcrosby22/where_cursor_feels_home) vendors this repo as a **git submodule** at `cursor-knowledge-public/` with symlinks for `onboarding/` and `product-management/`.
+- The private workspace [where_cursor_feels_home](https://github.com/vcrosby22/where_cursor_feels_home) vendors this repo as a **git submodule** at `cursor-knowledge-public/` with symlinks for `onboarding/`, `product-management/`, `design-knowledge/`, and `projects/`.
 - Links that point "up" to `BACKLOG.md`, `scripts/`, or `.cursor/` resolve only inside that private clone.
 - Quality standard for all public files: [`product-management/PUBLIC_DOC_QUALITY_CRITERIA.md`](product-management/PUBLIC_DOC_QUALITY_CRITERIA.md).
 - Before contributing: remove secrets, tokens, and personal data. See [`onboarding/guides/public-vs-private-git-strategy.md`](onboarding/guides/public-vs-private-git-strategy.md).
