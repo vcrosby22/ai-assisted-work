@@ -40,14 +40,15 @@
 | **Whole workspace** — journal, backlog, `.cursor`, `financial-agent/` source, onboarding, etc. | Monorepo **root** (`where_cursor_feels_home`) | Host/path contains **`where_cursor_feels_home`** (e.g. `git@github.com:vcrosby22/where_cursor_feels_home.git`) | **Private** |
 | **GitHub Pages market report** — static HTML + workflow | **Separate clone** of the report repo (e.g. `financial-reports-upstream/`), *not* the monorepo root | Host/path contains **`financial-reports`** | **Public** |
 | **Cursor KB markdown slice** (glossary, triggers, sanitized `cursor-knowledge`) | **`cursor-kb-public/`** after `sync_public_cursor_kb_repo.py` | A **dedicated public repo** — URL must **not** be the private monorepo | **Public** |
-| **Onboarding + product-management** (triggers, GLOSSARY, PM KB, playbooks) | **`cursor-knowledge-public/`** (git submodule at monorepo root) | **`ai-assisted-work`** (e.g. `git@github.com:vcrosby22/ai-assisted-work.git`) | **Public** |
+| **Onboarding + product-management + design-knowledge** (triggers, GLOSSARY, PM KB, design/web KB, playbooks) | **`cursor-knowledge-public/`** (git submodule at monorepo root) | **`ai-assisted-work`** (e.g. `git@github.com:vcrosby22/ai-assisted-work.git`) | **Public** |
 | **Dog agent** (if nested git) | **`dog-agent/`** | That project’s own remote (typically **private**) | Usually **private** |
 
 **Do not**
 
 - Push the **monorepo root** to **`financial-reports`** — the report repo only gets **ported** artifacts per **`financial-agent/PORTING.md`** / **`financial-agent/PUBLISHING.md`**.
 - Point **`cursor-kb-public/`**’s `origin` at **`where_cursor_feels_home`** — the export is **gitignored** in the private repo *on purpose*; it should be its **own** public remote.
-- Edit **`onboarding/`** / **`product-management/`** only via the **`ai-assisted-work`** public repo (submodule **`cursor-knowledge-public/`**), or run **`scripts/bundle_cursor_knowledge_public_repo.py`** into a clone and push — do not expect those trees to live only in the private remote.
+- Edit **`onboarding/`**, **`product-management/`**, or **`design-knowledge/`** only via the **`ai-assisted-work`** public repo (submodule **`cursor-knowledge-public/`**), or run **`scripts/bundle_cursor_knowledge_public_repo.py`** into a clone and push — do not expect those trees to live only in the private remote.
+- In the private monorepo, symlink **`design-knowledge`** → **`cursor-knowledge-public/design-knowledge`** (same pattern as **`onboarding`** and **`product-management`**). Optional: **`projects/`** for public sub-project archives (e.g. equine therapy research).
 - Copy **`BACKLOG*.md`**, **`journal/`**, or **`.env`** into a **public** repo or handbook tree without an explicit sanitization pass (see checklist below).
 
 **Agent habit:** When helping Victoria **commit + push**, name **which repo** you are pushing to (private workspace vs public report vs public KB). If `origin` does not match the table for the current directory, **stop** and fix the remote before pushing.
@@ -103,3 +104,4 @@ That writes **`cursor-kb-public/`** at the monorepo root with **GLOSSARY**, **tr
 - **2026-03-20** — **Where to push (routing)** table — verify `origin` + working directory before every push (private monorepo vs `financial-reports` vs `cursor-kb-public`).
 - **2026-03-20** — **`onboarding/`** + **`product-management/`** canonical in public **`ai-assisted-work`** (formerly `cursor-knowledge`); private monorepo uses submodule + symlinks + **`bundle_cursor_knowledge_public_repo.py`**.
 - **2026-03-22** — Repo renamed from **`cursor-knowledge`** → **`ai-assisted-work`** to match expanded scope (AI engineering, LLM foundations, not just Cursor). GitHub auto-redirects old URLs.
+- **2026-05-26** — **`design-knowledge/`** + **`projects/`** (sub-project archives) added to public **`ai-assisted-work`**; monorepo symlinks **`design-knowledge`** and **`projects`** at root alongside onboarding/PM.
