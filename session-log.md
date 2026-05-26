@@ -6,6 +6,42 @@ This is the maintainer's **build diary**: real Cursor sessions showing what was 
 
 ---
 
+## Session: 2026-05-24 — Design knowledge base + equine therapy research
+
+### Use case: Reusable design KB for any web project
+
+**What we solved:** Built a general-purpose **design knowledge** module in this repo (UI, website design, e-commerce, backend, design thinking, context engineering) plus a **sub-project archive** for equine therapy nonprofit site research (San Diego / Orange County reference sites).
+
+**Why it matters:** Agents and humans need link-stable, task-scoped context for design work—not one-off chat research. The equine vertical stays isolated under `projects/` so the core KB applies to any future site or app.
+
+### Deliverables
+
+| Path | What |
+|------|------|
+| [`design-knowledge/`](design-knowledge/) | README, AGENTS.md, SOURCE_INDEX, context-engineering, 20+ topic seed docs |
+| [`projects/equine-therapy-nonprofit/`](projects/equine-therapy-nonprofit/) | research-journal, reference-sites (SD/OC + national) |
+| MkDocs / README | Design & Web nav section; learning path updated |
+
+### Technologies
+
+- **MkDocs Material** — published at [vcrosby22.github.io/ai-assisted-work](https://vcrosby22.github.io/ai-assisted-work/)
+- **Docs-as-code** — Markdown in repo; GitHub Actions copies into `docs/` on deploy
+- **Context engineering** — `AGENTS.md` task → load map; Tier 1/2 source index (WCAG, NN/g, Baymard, 12-factor, etc.)
+
+### Lessons learned
+
+- **Separate global KB from project research** — `design-knowledge/` vs `projects/<name>/` keeps agents from loading irrelevant vertical context.
+- **Summarize + link** — Baymard and similar paid corpora belong in SOURCE_INDEX, not pasted into repo.
+- **Accessibility is always in the load set** for public web.
+- **Local reference sites** (RAD, Shea Center, Tara's Chance) are strong design references for a future nonprofit build—not templates to copy.
+
+### Next
+
+- Use design KB when starting any website or full-stack UI work
+- When equine nonprofit build starts: load `projects/equine-therapy-nonprofit/` + nonprofit + donations docs
+
+---
+
 ## Session: 2026-03-13 — Foundation Build
 
 ### Use Case: Building a Complete Cursor Foundation

@@ -47,6 +47,7 @@ Welcome to a **free, open collection** of guides, technical knowledge, and resou
 === "Advanced"
 
     - [**AI Engineering knowledge base**](ai-engineering/README.md) — LLM foundations, agentic AI, context engineering, full-stack LLM, AI services *(54 scholarly sources)*
+    - [**Design & Web knowledge base**](design-knowledge/README.md) — UI, accessibility, e-commerce, REST APIs, agent load map
     - [**Context engineering deep dive**](ai-engineering/context-engineering.md) — the flagship article
     - [**Source index**](ai-engineering/SOURCE_INDEX.md) — master bibliography with annotated references
     - [**All sources**](sources.md) — 102 deduplicated references across the entire knowledge base
@@ -129,6 +130,7 @@ Welcome to a **free, open collection** of guides, technical knowledge, and resou
     | Section | What you'll find |
     |---------|-----------------|
     | [**AI Engineering**](ai-engineering/README.md) | LLM foundations, agentic AI, context engineering, full-stack development, AI services & APIs |
+    | [**Design & Web**](design-knowledge/README.md) | UI principles, WCAG accessibility, design thinking, checkout/donations, backend API patterns |
     | [**All Sources**](sources.md) | 102 deduplicated references — research papers, vendor docs, practitioner content |
     | [**Companion Articles**](cursor-knowledge/README.md) | AI context reading lists, mobile web design, backlog philosophy |
     | [**Full onboarding catalog**](onboarding/INDEX.md) | Every guide with reading paths A–D |
