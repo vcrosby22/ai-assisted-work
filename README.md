@@ -24,6 +24,7 @@ After that, pick a **learning path** based on where you are:
 | **B — Ready for Git** | Want to save versions or share work on GitHub | [Git basics for non-developers](onboarding/guides/git-basics-for-non-developers.md) → [Public vs private Git](onboarding/guides/public-vs-private-git-strategy.md) |
 | **C — Power user** | Setting up rules, backlogs, and automation in a private workspace | [Full onboarding catalog](onboarding/INDEX.md) including [workspace-only extras](onboarding/INDEX-full-workspace-only.md) |
 | **D — Technical deep dives** | Want the research papers, architectures, and engineering behind LLMs and agents | [AI engineering knowledge base](ai-engineering/) — context engineering, LLM foundations, agentic AI, full-stack LLM, services |
+| **E — Design & web** | Building sites, UI, e-commerce, or full-stack products | [Design knowledge base](design-knowledge/) — UI, UX research, accessibility, checkout, REST APIs, agent load map |
 
 ---
 
@@ -45,7 +46,9 @@ After that, pick a **learning path** based on where you are:
 |--------|--------------|--------------|
 | [`onboarding/`](onboarding/) | **Guides, checklists, and reference material** for learning Cursor and working with AI | Everyone — start here |
 | [`ai-engineering/`](ai-engineering/) | **Technical knowledge base** — LLM foundations, agentic AI, context engineering, full-stack development, AI services; scholarly sources and annotated references | Engineers, researchers, and power users |
+| [`design-knowledge/`](design-knowledge/) | **Design & web knowledge base** — UI principles, accessibility (WCAG), design thinking, e-commerce/checkout, REST APIs, context engineering for design tasks; curated [source index](design-knowledge/SOURCE_INDEX.md) | Anyone building websites, apps, or donation flows |
 | [`product-management/`](product-management/) | PM frameworks, a [plain-language glossary](product-management/GLOSSARY.md), and backlog best practices | PMs, product people, and anyone who wants definitions |
+| [`projects/`](projects/) | **Sub-project archives** (e.g. vertical research)—not general-purpose KB | Per-project reference |
 | [`cursor-knowledge/`](cursor-knowledge/) | Companion articles on AI context, mobile UX, Git onboarding, and backlog philosophy | Intermediate readers and reference |
 | [`session-log.md`](session-log.md) | The maintainer's build diary — real sessions showing what was built and what was learned | Curious readers; this is an example, not a tutorial |
 

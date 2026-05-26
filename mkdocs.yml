@@ -70,6 +70,23 @@ nav:
       - Full-stack LLM: ai-engineering/full-stack-llm.md
       - AI services & APIs: ai-engineering/ai-services-and-apis.md
       - Source index: ai-engineering/SOURCE_INDEX.md
+  - Design & Web:
+      - Overview: design-knowledge/README.md
+      - Agent load map: design-knowledge/AGENTS.md
+      - Context engineering: design-knowledge/context-engineering.md
+      - Source index: design-knowledge/SOURCE_INDEX.md
+      - UI principles: design-knowledge/ui-design/principles.md
+      - Accessibility: design-knowledge/ui-design/accessibility.md
+      - Design systems: design-knowledge/ui-design/design-systems.md
+      - Heuristic evaluation: design-knowledge/design-thinking/ux-research-methods.md
+      - Static site patterns: design-knowledge/design-patterns/static-site-patterns.md
+      - Nonprofit web: design-knowledge/website-design/nonprofit-and-mission.md
+      - E-commerce fundamentals: design-knowledge/e-commerce/fundamentals.md
+      - Checkout & payments: design-knowledge/e-commerce/checkout-and-payments.md
+      - Donations: design-knowledge/e-commerce/donations-nonprofit.md
+      - REST API design: design-knowledge/backend-design/api-design-rest.md
+      - Backend architecture: design-knowledge/backend-design/architecture-patterns.md
+      - Contract-first: design-knowledge/full-stack/contract-first.md
   - Guides & Reference:
       - Onboarding catalog: onboarding/INDEX.md
       - Git basics: onboarding/guides/git-basics-for-non-developers.md
