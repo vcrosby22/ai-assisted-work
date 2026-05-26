@@ -1,6 +1,6 @@
 ---
 name: product-management
-description: Applies product-management methodology, PM planning, product discovery, prioritization, roadmapping, PRDs, backlog shaping, Design Thinking, UCD/HCD, Service Design, Service Blueprinting, and Double Diamond workflows. Use when the user says pm, product management, product planning, product design, design thinking, UCD, HCD, service design, Double Diamond, roadmap, PRD, discovery, prioritization, or backlog.
+description: Applies product-management methodology, PM planning, product discovery, prioritization, roadmapping, PRDs, backlog shaping, Design Thinking, UCD/HCD, Service Design, Service Blueprinting, Double Diamond, and regulated-product routing. Use when the user says pm, product management, product planning, product design, design thinking, UCD, HCD, service design, Double Diamond, roadmap, PRD, discovery, prioritization, backlog, medtech, regulated product, healthcare, medical device, or SaMD.
 ---
 
 # Product Management
@@ -18,7 +18,9 @@ When this skill applies:
 
 - Strategy, opportunity, roadmap, PRD, backlog, prioritization, or discovery request: use the AI PM context, workflows, and templates.
 - Design Thinking, UCD, HCD, Service Design, Service Blueprinting, Double Diamond, journey mapping, prototyping, usability testing, or product/service design request: also load `product-management/research/2026-05-09-design-methodology-resource-pack.md`.
+- Regulated healthcare, medtech, medical device, SaMD, AI/ML medical software, patient safety, FDA, MDR/IVDR, ISO 13485, ISO 14971, IEC 62366, human factors, usability engineering, design controls, QMS, or post-market surveillance request: invoke the `regulated-medtech-design` skill and load `product-management/research/2026-05-09-regulated-medtech-design-resource-pack.md`.
 - AI PM agent, context engineering, workflow, rule, or template request: load `product-management/research/2026-05-09-ai-pm-agent-resource-pack.md`.
+- Build or ship a **website, web app, storefront, donation flow, or customer-facing UI** (not PM-only): also invoke the `design-knowledge` skill and follow `design-knowledge/AGENTS.md`.
 
 ## Operating Principles
 
@@ -42,4 +44,8 @@ Choose the artifact that fits the task:
 - Double Diamond plan
 - UCD/HCD checklist
 - Service blueprint outline
+- Regulated product intake
+- Compliance-aware PRD addendum
+- Regulated risk / usability checklist
+- Design-controls traceability outline
 - AI PM context packet
