@@ -6,6 +6,65 @@ This is the maintainer's **build diary**: real Cursor sessions showing what was 
 
 ---
 
+## Session: 2026-06-10 — Program Edge: brand identity + home page
+
+### Use case: Research-driven brand + marketing site, built with an agent
+
+**What we solved:** Stood up a new consulting/build-studio website from scratch — new repo, a locked brand identity (logo, color, type, tagline), and a finished, accessible home page — then packaged a clean handoff at ~87% context. Brand decisions were driven by research, not taste alone.
+
+**Why it matters:** Shows how an agent can act as a design + strategy partner (not just a code generator): pulling shape-psychology and color-trust research, pressure-testing the human's instincts, and converting decisions into a shipped, on-brand page with a durable handoff doc.
+
+### Deliverables
+
+| Path | What |
+|------|------|
+| `program-edge-site` (separate private repo) | New static site: `index.html` home page, shared `styles.css` design system, `site.js`, `favicon.svg` |
+| `BRAND.md` | Locked palette, logo research, tagline candidates, collaboration pillar |
+| `HANDOFF.md` | Full state + remaining-pages plan for the next agent |
+| 4 logo-draft pages | Decision artifacts (concept rounds + color/variant comparisons) |
+
+### Technologies
+
+- **Static HTML + one shared CSS file + minimal vanilla JS** — reused the Center X pattern; mobile-first, no build step
+- **Poppins + Inter** (Google Fonts); inline **SVG** logo + favicon
+- **Cloudflare Pages** (deploy target) + **iCloud+ Custom Email Domain** for `program-edge.com` mail
+- **gh CLI** for org repo creation; commit + push each step
+
+### Lessons learned
+
+- **Ground brand choices in research.** Shape psychology is real and citable: rounded forms read warmth/connection, **overlapping/interlocking** shapes are the visual grammar of **collaboration**, and structure/angularity reads trust. The strongest mark blends warmth + structure.
+- **Honor the human's gut, but de-risk it.** Victoria preferred green over the "safe" teal; emerald keeps teal's trust depth (it's blue-leaning) while fitting an organic leaf mark — so we got both. Amber stays a sparing accent because it's the universal "caution" color and fails contrast on white.
+- **Serendipity is a feature.** The two converging leaves happened to form a "V" (for Victoria) — collaboration + growth + identity in one mark.
+- **Pricing for a new practice:** don't publish hard prices yet — show **outcome packages + engagement models** and qualify budget privately on the contact form. Value-based > hourly.
+- **Positioning:** lead with the tangible offer (Building) backed by depth (Consulting) — "rare both" is the differentiator.
+- **iCloud custom-domain email deadlock:** skip "add existing addresses" (it sends un-receivable verifications), verify via **DNS** instead (Cloudflare integration auto-writes the records), and keep Cloudflare Email Routing **off** so it doesn't fight iCloud's MX.
+- **Hand off before quality degrades.** At ~87% context, an in-repo `HANDOFF.md` beats pushing one more feature.
+
+---
+
+## Session: 2026-06-06 — GHK-Cu peptide source review
+
+### Use case: Safety-oriented source check
+
+**What we solved:** Reviewed public GHK-Cu / copper peptide dosage sources against stronger regulatory and clinical-safety references, then captured the concentration math for a 50 mg vial reconstituted with 2 mL bacteriostatic water.
+
+**Why it matters:** Peptide content online often mixes seller protocols, clinic anecdotes, and dosing arithmetic. Capturing the source quality and math separately reduces the risk of treating commercial dosage tables as medical standards.
+
+### Deliverables
+
+| Path | What |
+|------|------|
+| [`projects/peptide-knowledge-base/`](projects/peptide-knowledge-base/) | New de-identified peptide research notes folder |
+| [`projects/peptide-knowledge-base/ghk-cu-source-review-2026-06-06.md`](projects/peptide-knowledge-base/ghk-cu-source-review-2026-06-06.md) | GHK-Cu source review, concentration math, and safety guardrails |
+
+### Lessons learned
+
+- **Separate arithmetic from advice.** `50 mg / 2 mL = 25 mg/mL`, so a U-100 syringe unit equals 0.25 mg; that calculation is useful even when no medical dose can be endorsed.
+- **Commercial peptide sources need a quality check.** Off-label protocol charts are not the same as human clinical dosing standards.
+- **Public repos should stay de-identified.** Health-related notes belong in source-review form, not as personal medical history.
+
+---
+
 ## Session: 2026-05-24 — Design knowledge base + equine therapy research
 
 ### Use case: Reusable design KB for any web project
