@@ -42,6 +42,35 @@ This is the maintainer's **build diary**: real Cursor sessions showing what was 
 
 ---
 
+## Session: 2026-06-10 (cont.) — Program Edge: Services page, live embeds, and go-live
+
+### Use case: Take the marketing site from "built locally" to "live on the real domain"
+
+**What we solved:** Built the Services page, turned the home page into a *living portfolio* (a real scrollable iframe of the deployed client site + a JS-driven blog feed off the public RSS), generated a founder headshot, refreshed credibility, then deployed to **Cloudflare Pages** and verified `https://program-edge.com` serving over valid HTTPS.
+
+**Why it matters:** A consulting/build studio site is more convincing when it *demonstrates* the work in place rather than describing it. Embedding the live client build and pulling real blog posts makes the portfolio self-updating and proves the "I actually ship" claim on the page itself.
+
+### Deliverables
+
+| Path | What |
+|------|------|
+| `services.html` | Building-led services page (Building → Consulting → How we work → Who I work with → Engagement models → CTA); no public prices |
+| `index.html` | Live Center X iframe in a browser-frame mockup; dynamic "Latest from the blog"; headshot; Building-first pillars; CPower→Disney |
+| `assets/site/site.js` | `initBlogFeed()` — fetch + parse RSS, render latest post (UTC date, og:image with onerror fallback) + 3 recent titles; progressive (static fallback survives fetch failure) |
+| `_headers`, `robots.txt`, `sitemap.xml`, `_redirects` | Deploy prep — cache control, indexability, www→apex 301 |
+| Cloudflare Pages `program-edge-site` | **Live: `https://program-edge.com`** auto-deploying from `main` |
+
+### Lessons learned
+
+- **Embed live, don't screenshot.** Once the client removed HTTP Basic Auth, a real `<iframe>` beats a static image — it's always current and proves the build is deployed. Verify framing first: a `401`/`X-Frame-Options: DENY` kills the embed before you write any markup.
+- **Cache-bust on a no-build static site.** Without a bundler hash, stale `styles.css`/`site.js` will lie to you in the browser. `?v=YYYYMMDD` on asset links + a `_headers` revalidate rule for HTML makes "did my change ship?" answerable. Several "it looks broken" screenshots were pure browser cache.
+- **RSS dates are UTC midnight — format with `timeZone: "UTC"`** or every post reads one day early in a US timezone.
+- **Cloudflare Pages normalizes clean URLs:** `/services.html` → 308 → `/services`. Harmless, but keep internal links as `services.html` so the local `python3 -m http.server` preview still resolves them.
+- **The dashboard lies about "Verifying."** When the apex domain shares the Cloudflare account, the record is created and serving (200 + valid cert) well before the UI flips to "Active" and despite a scary "up to 48 hours" banner. Trust `dig` + `curl`, not the badge.
+- **Deploy is two clicks, not one.** Adding the apex custom domain does not add `www` — that's a separate custom-domain entry, and only then does the `_redirects` www→apex rule have anything to redirect.
+
+---
+
 ## Session: 2026-06-06 — GHK-Cu peptide source review
 
 ### Use case: Safety-oriented source check
