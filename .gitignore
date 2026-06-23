@@ -8,3 +8,5 @@ docs/
 # Client work — keep OUT of this PUBLIC repo (move to ProgramEdgeLLC/* per REORG-TODO)
 projects/susan-street-gallery/
 projects/equine-therapy-nonprofit/
+# Personal data — must NEVER be in this PUBLIC repo (lives in the private monorepo)
+projects/peptide-knowledge-base/
