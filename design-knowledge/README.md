@@ -37,6 +37,7 @@ Both trigger on build website / new product / UI / e-commerce asks.
 | [`website-design/`](website-design/) | IA, conversion, nonprofit/mission sites |
 | [`design-patterns/`](design-patterns/) | Navigation, static layouts, responsive/mobile |
 | [`e-commerce/`](e-commerce/) | Catalog, checkout, donations |
+| [`fashion-retail/`](fashion-retail/) | Fashion/apparel/DTC sites, drop marketing, coming-soon pages, garments without photos |
 | [`backend-design/`](backend-design/) | REST APIs, architecture, security |
 | [`full-stack/`](full-stack/) | Contract-first API ↔ UI alignment |
 
@@ -47,6 +48,8 @@ Both trigger on build website / new product / UI / e-commerce asks.
 | Landing / marketing site | [`design-patterns/static-site-patterns.md`](design-patterns/static-site-patterns.md) → [`ui-design/accessibility.md`](ui-design/accessibility.md) |
 | Nonprofit / mission site | [`website-design/nonprofit-and-mission.md`](website-design/nonprofit-and-mission.md) |
 | Online store | [`e-commerce/fundamentals.md`](e-commerce/fundamentals.md) → [`e-commerce/checkout-and-payments.md`](e-commerce/checkout-and-payments.md) |
+| Fashion / apparel brand or drop | [`fashion-retail/README.md`](fashion-retail/README.md) |
+| Coming-soon / pre-launch waitlist | [`fashion-retail/coming-soon-and-prelaunch.md`](fashion-retail/coming-soon-and-prelaunch.md) |
 | Web app + API | [`backend-design/api-design-rest.md`](backend-design/api-design-rest.md) → [`full-stack/contract-first.md`](full-stack/contract-first.md) |
 | Design critique | [`design-thinking/ux-research-methods.md`](design-thinking/ux-research-methods.md) |
 

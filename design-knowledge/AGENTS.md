@@ -24,6 +24,9 @@
 | **New static / marketing site** | `website-design/information-architecture.md` → `design-patterns/static-site-patterns.md` → `ui-design/principles.md` → `ui-design/accessibility.md` |
 | **Nonprofit / mission-driven site** | `website-design/nonprofit-and-mission.md` → `design-patterns/static-site-patterns.md` → `e-commerce/donations-nonprofit.md` → `ui-design/accessibility.md` |
 | **E-commerce storefront** | `e-commerce/fundamentals.md` → `e-commerce/checkout-and-payments.md` → `ui-design/accessibility.md` → `design-patterns/responsive-and-mobile.md` |
+| **Fashion / apparel / DTC brand site** | `fashion-retail/README.md` → `fashion-retail/visual-design-and-editorial.md` → `ui-design/accessibility.md` |
+| **Coming-soon / pre-launch waitlist** | `fashion-retail/coming-soon-and-prelaunch.md` → `fashion-retail/drop-marketing-and-launch.md` → `design-patterns/static-site-patterns.md` |
+| **Garments / products without photos** | `fashion-retail/garments-without-photos.md` |
 | **Donation / fundraising flows only** | `e-commerce/donations-nonprofit.md` → `website-design/conversion-and-ctas.md` |
 | **UI components / design system** | `ui-design/design-systems.md` → `ui-design/principles.md` → `ui-design/accessibility.md` |
 | **Mobile / responsive layout** | `design-patterns/responsive-and-mobile.md` → `../cursor-knowledge/mobile-web-design.md` |
